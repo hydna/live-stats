@@ -4,4 +4,4 @@ channel.decr('visitors');
 
 // and emit the number of visitors to the privileged channel.
 var priv = domain.getChannel(2);
-priv.emit(channel.get('connections').toString());
+priv.emit(channel.get('visitors').toString());
