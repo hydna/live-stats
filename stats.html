@@ -12,7 +12,7 @@
           window.onload = function() {
             // we open a channel on the domain here. substitute <YOUR DOMAIN>
             // with the name of your actual domain.
-            var channel = new HydnaChannel('<YOUR DOMAIN>/2/?secret');
+            var channel = new HydnaChannel('strange.hydna.net/2/?secret');
             var counter = document.getElementById('counter');
 
             channel.onopen = function(e) {
