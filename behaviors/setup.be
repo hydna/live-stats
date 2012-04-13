@@ -9,10 +9,10 @@ open
     // users must send the token "secret" to be able to open this channel
     token = "secret"
 
-      // if the token was correct, we run the script `stats.js` the script
+      // if the token was correct, we run the script `init.js` the script
       // will set the context variable `$MESSAGE` to the number of 
       // currently active visitors.
-      run('./stats.js')
+      run('./init.js')
 
       // finally we allow the connecting user to open this channel (the
       // token was correct, after all) and pass the $MESSAGE back to the
